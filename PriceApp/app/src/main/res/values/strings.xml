@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PriceApp</string>
+    <string name="title_activity_login">login</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="scan">SCAN</string>
+    <string name="write_barcode">Write Barcode</string>
+    <string name="add_date">Click to Choose Date</string>
+    <string name="price">Price</string>
+    <string name="done">Done</string>
+    <string name="login">Login</string>
+    <string name="not_register">Not registered, Sign up Now!</string>string>
+    <string name="welcome">Welcome to Price</string>
+    <string name="get_notify">Get Notify when prices are dropped,</string>
+    <string name="instant">changed instantly</string>
+    <string name="sign">Sign In </string>
+    <string name="register">Register</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_product">Add Product</string>
+    <string name="help">Help</string>
+    <string name="signout">Sign Out</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="already">Already have an account? Sign in here!</string>
+    <string name="wait">Please wait...</string>
+    <string name="username">Name:</string>
+    <string name="email1">Email:</string>
+    <string name="items">Items: </string>
+    <string name="value">Value：</string>
+    <string name="name">Name</string>
+    <string name="choose">Choose Your Credit Card</string>
+    <string name="detail">Product Detail</string>
+    <string name="pname">Product Name:</string>
+    <string name="date">Date:</string>
+    <string name="original">Original Price:</string>
+    <string name="latest">Latest Price:</string>
+    <string name="url">Url:</string>
+    <string name="bar">Barcode:</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home Page</string>
+</resources>

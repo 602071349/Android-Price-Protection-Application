@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item android:id="@+id/addProduct"
+        android:title="@string/add_product"
+        android:state_pressed="true"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+    <item android:title="@string/profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/signOut"
+        android:title="@string/signout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

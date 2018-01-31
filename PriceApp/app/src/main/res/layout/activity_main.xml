@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bikenmaharjan.priceapp.MainActivity">
+
+
+    <LinearLayout
+
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_weight="12"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/vector_bar_code"
+            android:layout_gravity="center_horizontal|center_vertical"
+            />
+
+    </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+
+            android:id="@+id/fd_text"
+
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="@color/white">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="12dp"
+                android:text="@string/welcome">
+
+            </TextView>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:paddingTop="12dp"
+                android:text="@string/get_notify">
+
+            </TextView>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:paddingTop="52dp"
+                android:text="@string/instant">
+
+            </TextView>
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/buttonLogin"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+
+
+                android:id="@+id/signTxt"
+                android:layout_width="0dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"
+                android:text="@string/sign"
+                />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="60dp"
+                android:background="@color/btnPrimaryDark"/>
+
+            <TextView
+
+                android:id="@+id/registerTxt"
+                android:layout_width="0dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"
+                android:text="@string/register"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.widget.RelativeLayout>

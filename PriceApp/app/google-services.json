@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "979123573924",
+    "firebase_url": "https://priceapp-c61a6.firebaseio.com",
+    "project_id": "priceapp-c61a6",
+    "storage_bucket": "priceapp-c61a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979123573924:android:4e8ff7f2eae67269",
+        "android_client_info": {
+          "package_name": "com.example.bikenmaharjan.priceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979123573924-kltb561692l4je8pjlha3drvbdn39dn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bikenmaharjan.priceapp",
+            "certificate_hash": "8419dfaae67f938971d59b990054400793359fcf"
+          }
+        },
+        {
+          "client_id": "979123573924-1pk8vd3r7miq1sbphqiptj3evauhvugb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPb4AEQPSdkt3youKBtL4QW8UlcF4L3p0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979123573924-1pk8vd3r7miq1sbphqiptj3evauhvugb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
